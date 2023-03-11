@@ -4,9 +4,27 @@
     margin:;
 }
 
+.nav-bar {
+    background-color: ;
+    text-decoration: ;
+}
+
+.centered-text {
+    text-align: center;
+}
+
 .btn-font{
     color:;
     font-weight:;
+}
+
+.btn-border {
+    border:;
+}
+
+.box-with-border {
+    border:;
+    padding:;
 }
 
 .title-grn {
@@ -15,4 +33,42 @@
 
 .title-lrg {
     font-size:;
+}
+
+#logo-art{
+    width:;
+}
+
+#investment-art{
+    width:;
+    height:;
+}
+
+#woodside-tree{
+    width:;
+    height:;
+}
+
+#disclaimer {
+    color:;
+}
+
+#shorter-box{
+    width:;
+}
+
+#double-column{
+    width:;
+}
+
+#triple-column {
+    width:;
+}
+
+#quintuple-column {
+    width:;
+}
+
+#footer-nav {
+    width:;
 }
