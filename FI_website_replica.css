@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h2 {
+h2  {
     font-weight: 400;
 }
 
@@ -60,6 +60,18 @@ ul > li > a {
     font-style: italic;
 }
 
+.forest-green {
+    background-color: #034638;
+    color: white;
+}
+
+.space-down {
+    margin-bottom: 5rem;
+}
+
+.smaller-space-down {
+    margin-bottom: 2rem;
+}
 .title-grn {
     color:green;
 }
@@ -70,6 +82,7 @@ ul > li > a {
 
 .white-background {
     background-color: white;
+    color:#000;
 }
 
 .white-text {
@@ -86,11 +99,12 @@ ul > li > a {
 }
 
 #investment-art{
-    width: 40%;
+    width: 42%;
+    margin-right: 2rem;
 }
 
 #woodside-tree-art{
-    width: 50%;
+    width: 43%;
 }
 /* 
 #disclaimer {
@@ -100,24 +114,73 @@ ul > li > a {
 #shorter-box{
     width:;
 }
-
-#double-column{
-    width:;
+*/
+.double-column{
+    display: flex;
 }
 
-#triple-column {
-    width:;
-} */
+.carousel-card {
+    width: 18vw;
+    height: 48vh;
+}
+
+.triple-column {
+    display: -webkit-box;
+    padding: 1rem;
+} 
+
+#services {
+    width: 32vw;
+    margin: 1rem;
+}
+
+.powder-blue{
+    background-color: powderblue;
+}
 
 /* #quintuple-column {
     width:;
 } */
 
+#middle-of-space {
+    margin-top: 5rem;
+    margin-bottom: 5rem;    
+}
 
-.forest-green{
-    background-color:#034638;
-    color: white;
-} 
-.space-down {
-    margin-bottom: 5rem;
+#commentary {
+    height: 60vh;
+    padding: 2rem 20rem;
+}
+
+#yellow-strip{
+    background-color: rgb(130, 130, 0);
+    height: 2vh;
+}
+
+#blue-strip{
+    background-color: rgb(0, 55, 137);
+    height: 2vh;
+}
+
+#green-strip{
+    background-color: rgb(0, 114, 4);
+    height: 2vh;
+}
+
+.executive-summary{
+    background-color: white;
+    width: 94vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+}
+
+#executive-background{
+    background-color: #00bcd4;
+}
+
+.box-margin {
+    padding: 1rem;
+    margin: 2rem;
 }

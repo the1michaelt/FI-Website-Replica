@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Michael J. Thompson, CPACC">
         <meta name="keywords" content="website replica sample">
-        <link rel="stylesheet" src="FI_website_replica.css"/>
+        <link rel="stylesheet" href="FI_website_replica.css"/>
         <title>Fisher Investments AU Replica</title>
         <!-- insert favicon with the F -->
     </head>
@@ -35,7 +35,8 @@
         
         <div class="nav-bar forest-green">    
             <ul>
-            <details>
+           <!-- add hamburger menu -->
+                <details>
                 <summary>Strategies</summary>
                     <ul>
                         <li><strong>Strategies</strong></li>
@@ -88,20 +89,11 @@
     </nav>
 
     <body>
-
+    <div class="executive-summary">
         <img id="sydney-art" src="website art\Sydney 1140x458.png" alt="Australia Skyline"/>
-        
-        <div class="box-with-border">
-            <caption>
-                Fisher Investments Australasia Pty Ltd (FIA) holds an Australian Financial Services Licence (#433312) with the
-                Australian Securities and Investment Commission (ASIC). FIA delegates portfolio management to its parent company, Fisher
-                Investments (FI).
-            </caption>
-        </div>
-
-        <aside>
+                
+        <div class="white-background ">
             <h2>Q4 2022 Executive Summary</h2>
-            
             <p>
                 Q4 brought some relief from 2022’s downturn with a 9.8% return for the MSCI ACWI Index—extending the long history of
                 post-US midterm positivity. Emerging Markets (EM) also rebounded and finished the quarter with a 9.7% gain. Turning
@@ -109,38 +101,39 @@
                 marked the bear market’s end. However, whether the new bull market began in Q4 or arrives this year, we think
                 equities are most likely to end 2023 higher.
             </p>
-            
-                <button><a href="#">Read now</a></button>         
-        </aside>
 
-        <div>
-            <p class="box-with-border">
-            Fisher Investments Australasia Pty Ltd (FIA) holds an Australian Financial Services Licence (#433312) with the
-            Australian Securities and Investment Commission (ASIC). FIA delegates portfolio management to its parent company, Fisher
-            Investments (FI).
-            </p>
-
+            <div><button><a href="#">Read now</a></button></div>             
         </div>
-    
-        <div class="forest-green">    
+
+        <div class="box-with-border white-background">
+            <caption>
+                Fisher Investments Australasia Pty Ltd (FIA) holds an Australian Financial Services Licence (#433312) with the
+                Australian Securities and Investment Commission (ASIC). FIA delegates portfolio management to its parent
+                company, Fisher
+                Investments (FI).
+            </caption>
+        </div>
+    </div>
+        <div class="forest-green" id="commentary">    
             <h3>View Our Latest Commentary</h3>    
             
-            <div id="triple-column">
+            <div class="triple-column carousel-card">
                     <div class="white-background">
+                        <div id="yellow-strip"></div>
                         <h4><strong>Macro Minutes: Which Equities Will Lead in a New Bull Market?</strong></h4>
                         <p>Watch Fisher Investments’ Research Analyst Tom Kirby explains the “bounce effect."</p>
                         <a href="#">Watch Now ►</a>
                     </div>
 
                     <div class="white-background">
-
+                        <div id="blue-strip"></div>
                         <h4><strong>Fisher Investments Macro Insights Q4 2022</strong></h4>
                         <p>See Fisher Investments’ global, macro perspective in charts.</p>
                         <a href="#">Read Now ►</a>
                     </div>
 
                     <div class="white-background">
-
+                        <div id="green-strip"></div>
                         <h4><strong>ESG Insights 2022</strong></h4>
                         <p>Learn about the latest trends in ESG investing.</p>
                         <a href="#">Read Now ►</a>
@@ -149,7 +142,7 @@
         
         </div>
 
-        <div class="centered-text">
+        <div class="centered-text triple-column powder-blue">
             <div>
                 <h3 class="title-grn">Services and Strategies</h3>
                     <p>Learn more about how Fisher Investments can assist you.</p>
@@ -157,7 +150,7 @@
                         <li><a href="#">Investment Process ►</a></li>
                         <li><a href="#">Investment Strategies ►</a></li>
                     </ul>
-                    <a href><strong>Learn More</strong></a>
+                <div><button class="btn-font btn-border">Learn More</button></div>
             </div>
             
             <div>
@@ -169,7 +162,7 @@
                             <li><a href="#"">Current Topics ►</a></li>
                             <li><a href="#"">White Papers ►</a></li>                
                         </ul>
-                    <a href="#"><strong>Learn More</strong></a>
+                <div><button class="btn-font btn-border">Learn More</button></div>
             </div>
 
             <div>
@@ -180,37 +173,39 @@
                             <li><a href="#">Investment Policy Committee ►</a></li>
                             <li><a href="#">Research Group ►</a></li>
                         </ul>
-                    <a href="#"><strong>Learn More</strong></a>
+                <div><button class="btn-font btn-border">Learn More</button></div>
             </div>
         </div>
            
+        <div class="double-column">
+            <img id="investment-art" src="website art\Investment-Process-2020-1121x661.png" alt="TopDownProcess" />
         <div>
-            <img id="investment-art double-column" src="website art\Investment-Process-2020-1121x661.png" alt="TopDownProcess" />
-
-            <div class="title-grn" >
-         
+            <div>
                 <h3>Fisher Investments' Process</h3>
                     <p>Fisher Investments' unique top-down portfolio management process sets us apart from other investment management firms in
                     that its focus is on macro decisions at the country and sector/industry level. Fisher Investments believes its process
                     is uniquely suited for managing portfolios, in contrast with more "bottom-up" approaches of many competitors who may
                     leave key sector or country decisions as passive residuals.</p>
-         
-                    <button class="btn-font btn-border">Learn More</button>
+                
+                <div><button class="btn-font btn-border">Learn More</button></div>
+        </div>
             </div>
         </div>
         
    
         <div>     
-            <div>   
-                <img id="woodside-tree-art" src="website art\Woodside - Tree View webReady.jpg" alt="ESG Process" />
-                
-                <h3 class="title-grn" >ESG Investing</h3>
+            <div class="double-column">   
+                <div>                
+                <h3>ESG Investing</h3>
                 
                     <p>Fisher Investments considers environmental, social and governance issues in the investment and portfolio construction
                     process. Further, Fisher Investments regularly screens and tailors its investment approach for separately managed
                     accounts depending on any particular social and environmental guideline mandated by the client.</p>
-            
-                <button class="btn-font btn-border">Learn More</button>
+                
+                <div><button class="btn-font btn-border">Learn More</button></div>
+                </div>
+                <img id="woodside-tree-art" src="website art\Woodside - Tree View webReady.jpg" alt="ESG Process" />
+
             </div>
             
         </div>
@@ -220,8 +215,8 @@
                 will be repaid. Past performance neither guarantees nor reliably indicates future performance.</p>
         </div>
 
-        <div>            
-            <h3 class="title-grn">About Fisher Investments Australasia</h3>
+        <div class="powder-blue box-margin">            
+            <h3>About Fisher Investments Australasia</h3>
                 <p id="disclaimer"> Fisher Investments Australasia offers a variety of Global, Non-US, and US Equity strategies for institutional investors.
                     FIA delegates portfolio management to its parent company, Fisher Investments, a money management firm in the US founded
                     in 1979 by investment guru Ken Fisher. Today, Fisher Investments and its affiliates oversee more than A$263 billion* in
@@ -310,13 +305,13 @@
     </div>
 </div>
 
-    <div class="box-with-border" id="shorter-box">
+    <div class="box-with-border smaller-space-down" id="shorter-box">
         <p><em>This site has been reviewed and approved by Fisher Investments Australasia.</em></p>
     </div>
         
        
         <hr/>
-            <div id="footer-nav">
+            <div class="smaller-space-down" id="footer-nav">
             <h6>Sites:</h6>
                 <ul>
                     <li><a href="#">Contact Us</a></li>
@@ -325,6 +320,9 @@
                 </ul>
             </div>
         <hr/>
-        <p>Copyright © 2023 Fisher Investments Australasia.</p>
+        <div id="middle-of-space">
+            <p>Copyright © 2023 Fisher Investments Australasia.</p>
+        </div>
+        
     </footer>
 </html>
