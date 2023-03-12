@@ -1,16 +1,28 @@
 * {
-
-    padding:;
-    margin:;
-} 
-
-button {
-    background-color: forestgreen;
-    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+h2 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight:bold;
+}
+
+button {
+    background-color: #007a53 !important;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    padding: 1%;
+    border-radius: 0.3em;
+    }
+
 button:hover {
-    background-color: ;
+    background-color: #0e8c21 !important;
 }
 
 hr {
@@ -33,26 +45,35 @@ ul > li > a {
     text-align: center;
 }
 
-.btn-font{
+/* .btn-font{
     color:;
     font-weight:;
-}
+} */
 
-.btn-border {
+/* .btn-border {
     border:;
-}
+} */
 
 .box-with-border {
-    border: .5em #333;
-    padding:;
+    border: 0.1rem solid #000;
+    padding: 0.5rem;
+    font-style: italic;
 }
 
 .title-grn {
     color:green;
 }
 
-.title-lrg {
+/* .title-lrg {
     font-size:;
+} */
+
+.white-background {
+    background-color: white;
+}
+
+.white-text {
+    color: white;
 }
 
 #logo-art{
@@ -71,7 +92,7 @@ ul > li > a {
 #woodside-tree-art{
     width: 50%;
 }
-
+/* 
 #disclaimer {
     color:;
 }
@@ -86,20 +107,17 @@ ul > li > a {
 
 #triple-column {
     width:;
-}
+} */
 
-#quintuple-column {
+/* #quintuple-column {
     width:;
-}
+} */
 
-#footer-nav {
-    width:;
-    background-color: forestgreen;
-}
 
 .forest-green{
-    background-color: forestgreen;
+    background-color:#034638;
+    color: white;
 } 
 .space-down {
-    margin-bottom:5rem;
+    margin-bottom: 5rem;
 }
