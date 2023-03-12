@@ -2,11 +2,31 @@
 
     padding:;
     margin:;
+} 
+
+button {
+    background-color: forestgreen;
+    color: white;
 }
 
-.nav-bar {
+button:hover {
     background-color: ;
-    text-decoration: ;
+}
+
+hr {
+    color: white;
+}
+
+ul {
+    display: contents;
+}
+
+ul > li > a {
+    text-decoration: none;
+} 
+
+.link-no-underline {
+    text-decoration: none;
 }
 
 .centered-text {
@@ -23,12 +43,12 @@
 }
 
 .box-with-border {
-    border:;
+    border: .5em #333;
     padding:;
 }
 
 .title-grn {
-    color:;
+    color:green;
 }
 
 .title-lrg {
@@ -36,17 +56,20 @@
 }
 
 #logo-art{
-    width:;
+    width: 30%;
+}
+
+#sydney-art{
+    width: 100%;
+    height: 100%;
 }
 
 #investment-art{
-    width:;
-    height:;
+    width: 40%;
 }
 
-#woodside-tree{
-    width:;
-    height:;
+#woodside-tree-art{
+    width: 50%;
 }
 
 #disclaimer {
@@ -71,4 +94,12 @@
 
 #footer-nav {
     width:;
+    background-color: forestgreen;
+}
+
+.forest-green{
+    background-color: forestgreen;
+} 
+.space-down {
+    margin-bottom:5rem;
 }
