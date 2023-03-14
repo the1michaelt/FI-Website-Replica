@@ -57,24 +57,28 @@ hr {
     margin-bottom: -5rem;
 }
 
-.btn-style {
-    background-color: #007a53 !important;
-    color: #fff;
-    font-weight: bold;
-    padding: 1%;
-    border-radius: 0.3em;
-    }
 
 .btn-style:hover {
     background-color: #0e8c21 !important;
 }
 
-.dropbtn {
-    background-color: #034638;
+/* .btn-style {
+    background-color: #007a53 !important;
     color: #fff;
-    padding: 1rem;
+    font-weight: bold;
+    padding: 1%;
+    border-radius: 0.3em;
+    } */
+
+
+    /* replace btn-style with this */
+.dropbtn {
+    background-color: #007a53 !important;
+    color: #fff;
+    padding: 1%;
     font-size: 1rem;
     border: none;
+    border-radius: .3rem;
 }
 
 /* hover on dropbtn*/
@@ -219,7 +223,10 @@ hr {
 #sydney-art{
     width: 100%;
     height: 100%;
+    position: relative;
+    margin: 20px;
 }
+
 
 .image-art{
     width: 42%;
@@ -256,6 +263,7 @@ hr {
     background-color: powderblue;
 }
 
+
 /* #quintuple-column {
     width:;
 } */
@@ -279,7 +287,6 @@ hr {
 
 #yellow-strip{
     background-color: rgb(130, 130, 0);
- 
 }
 
 #blue-strip{
@@ -296,8 +303,22 @@ hr {
 }
 
 #executive-summary{
-    background-color: #fff;
-} 
+    width: 40%;
+    height: 40%;
+    position: relative;
+    padding: 1rem;
+    top: -43rem;
+    right: -55rem;
+    }
+
+.stack-top {
+    z-index: 1;
+    margin: 3rem;
+    height: 6rem;
+    width: 10rem;
+    top: 0;
+    right: 0;
+}
 
 #executive-background{
     background-color: #00bcd4;
