@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/*removes all bullets*/
+ul {
+    list-style-type: none;
+}
+
 .dropbtn {
     background-color: #034638;
     color: #fff;
@@ -22,7 +27,6 @@
 .dropdown {
     display: inline-block;
     position: relative;
-    /* important */
 }
 
 /* revealed content */
@@ -59,6 +63,10 @@
     place-self: center;
 }
 
+.blue-text {
+    color:#00124d;
+}
+
 footer {
     padding: 2rem;
 }
@@ -69,6 +77,11 @@ h2  {
 
 h4 {
     font-weight:bold;
+}
+
+input {
+    color:#000;
+    width: 12vw;
 }
 
 .button-style {
@@ -88,7 +101,7 @@ ul {
 }
 
 ul>li>a, summary>strong>a {
-    color: #fff;
+    color: #0f246a;
 }
 
 ul>li>a {
@@ -99,12 +112,28 @@ hr {
     color: #fff;
 }
 
+.left-text {
+    text-align: left;
+    padding: .5rem
+}
+
 .box-size {
-    width: 94vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3vh;
     margin-top: 3vh;
+}
+
+.box-size-10{
+    width: 10vw;
+}
+
+.box-size-70 {
+    width: 70vw;
+}
+
+.box-size-94 {
+    width: 94vw;
 }
 
 .box-margin {
@@ -151,7 +180,7 @@ hr {
     margin-bottom: 2rem;
 }
 .title-grn {
-    color:#0e8c21;
+    color:#095715;
 }
 
 .white-background {
@@ -165,6 +194,7 @@ hr {
 
 #logo-art{
     width: 30%;
+    margin-left: -2%;
 }
 
 #sydney-art{
@@ -181,15 +211,7 @@ hr {
     align-items: center;
 }
 
-/* 
-#disclaimer {
-    color:;
-}
 
-#shorter-box{
-    width:;
-}
-*/
 .double-column{
     display: flex;
 }
@@ -197,7 +219,10 @@ hr {
 .carousel-card {
     width: 18vw;
     height: 48vh;
+    position: relative;
 }
+
+
 
 .triple-column {
     display: -webkit-box;
@@ -214,28 +239,33 @@ hr {
 } */
 
 #middle-of-space {
-    margin-top: 5rem;
-    margin-bottom: 5rem;    
+    margin-top: 5vh;
+    margin-bottom: 5vh;    
 }
 
 #commentary {
     height: 60vh;
-    padding: 2rem 20rem;
+    text-align: center;
+
+}
+
+.strip {
+    height: 5vh;
+    z-index: 1;
+    position: relative;
 }
 
 #yellow-strip{
     background-color: rgb(130, 130, 0);
-    height: 2vh;
+ 
 }
 
 #blue-strip{
     background-color: rgb(0, 55, 137);
-    height: 2vh;
 }
 
 #green-strip{
-    background-color: #0e8c21;
-    height: 2vh;
+    background-color: #095715;
 }
 
 #services {
@@ -252,9 +282,21 @@ hr {
 }
 
 #contact-and-details {
-    display: flex;
-    place-content: end;
     font-weight: bold;
     background-color: powderblue;
-    padding-top: 1rem;
+    padding-top: 1vh;
+}
+
+.to-the-right{
+    display: flex;
+    place-content: end;
+}
+
+#small-icon{
+    width:4%;
+    margin-left: 20vw;
+}
+
+.white-space{
+    margin: -4rem 3rem;
 }
