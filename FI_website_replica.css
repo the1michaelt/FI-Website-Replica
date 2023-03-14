@@ -35,7 +35,7 @@ ul>li>a {
     text-decoration: none;
 }
 
-span>ul>li>a, div> span >a, hr {
+span>ul>li>a, div>span>a, hr {
     color: #fff;
 }
 
@@ -347,7 +347,6 @@ summary>strong>a {
 
 #contact-and-details {
     font-weight: bold;
-    background-color: powderblue;
     padding-top: 1vh;
 }
 
@@ -356,3 +355,6 @@ summary>strong>a {
     margin-left: 30vw;
 }
 
+#picture-frame {
+    margin-top: -81vh;
+}
