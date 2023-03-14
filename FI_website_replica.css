@@ -9,6 +9,66 @@ ul {
     list-style-type: none;
 }
 
+
+footer {
+    padding: 2rem;
+}
+
+h2  {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight:bold;
+}
+
+input {
+    color:#000;
+    width: 12vw;
+    float: right;
+}
+
+ul {
+    display: contents;
+}
+
+ul>li>a,
+summary>strong>a {
+    color: #0f246a;
+}
+
+ul>li>a {
+    text-decoration: none;
+}
+
+hr {
+    color: #fff;
+}
+
+.top-margin-5 {
+    margin-top: -5rem;
+}
+
+.top-margin-15 {
+    margin-top: -15rem;
+}
+
+.btm-margin-5 {
+    margin-bottom: -5rem;
+}
+
+.btn-style {
+    background-color: #007a53 !important;
+    color: #fff;
+    font-weight: bold;
+    padding: 1%;
+    border-radius: 0.3em;
+    }
+
+.btn-style:hover {
+    background-color: #0e8c21 !important;
+}
+
 .dropbtn {
     background-color: #034638;
     color: #fff;
@@ -26,7 +86,6 @@ ul {
 /* drop down */
 .dropdown {
     display: inline-block;
-    position: relative;
 }
 
 /* revealed content */
@@ -35,7 +94,7 @@ ul {
     position: absolute;
     padding: 1rem;
     background-color: #fff;
-    color:#000;
+    color: #000;
     text-decoration: none;
     z-index: 1;
 }
@@ -48,68 +107,19 @@ ul {
 
 /* revealed link */
 .dropdown-content a {
-    color: #034638;
-    padding: .5em 15em;
+    color: #000;
+    padding: 0.5rem 20rem 0rem 0rem;
     text-decoration: none;
     display: block;
 }
 
 /* hover over revealed link */
 .dropdown-content a:hover {
-    background-color: #0e8c21;
-}
-
-.vertical-centered-text {
-    place-self: center;
+    background-color: #53f86c;
 }
 
 .blue-text {
-    color:#00124d;
-}
-
-footer {
-    padding: 2rem;
-}
-
-h2  {
-    font-weight: 400;
-}
-
-h4 {
-    font-weight:bold;
-}
-
-input {
-    color:#000;
-    width: 12vw;
-}
-
-.button-style {
-    background-color: #007a53 !important;
-    color: #fff;
-    font-weight: bold;
-    padding: 1%;
-    border-radius: 0.3em;
-    }
-
-.button-style:hover {
-    background-color: #0e8c21 !important;
-}
-
-ul {
-    display: contents;
-}
-
-ul>li>a, summary>strong>a {
-    color: #0f246a;
-}
-
-ul>li>a {
-    text-decoration: none;
-}
-
-hr {
-    color: #fff;
+    color: #00124d;
 }
 
 .left-text {
@@ -165,8 +175,17 @@ hr {
     text-align: center;
 }
 
+.vertical-centered-text {
+    place-self: center;
+}
+
 .box-with-border {
     border: 0.1rem solid #000;
+    padding: 1rem;
+}
+
+.box-white-border {
+    border: 0.1rem solid #fff;
     padding: 0.5rem;
     font-style: italic;
 }
@@ -211,6 +230,9 @@ hr {
     align-items: center;
 }
 
+.align-text-left {
+    text-align: -webkit-left;
+}
 
 .double-column{
     display: flex;
