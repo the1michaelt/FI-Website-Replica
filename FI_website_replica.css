@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+.right-margin-1{
+    margin-right: 1rem;
+}
+
+.top-margin-negative-1{
+     margin-top: -1.5rem;
+}
+
+body{
+    font-family: sans-serif;
+}
 /*removes all bullets*/
 ul {
     list-style-type: none;
@@ -15,7 +26,7 @@ footer {
 
 h2  {
     font-weight: 400;
-}
+}*
 
 h4 {
     font-weight:bold;
@@ -214,7 +225,7 @@ summary>strong>a {
 }
 
 .smaller-space-down {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 .title-grn {
     color:#095715;
@@ -266,7 +277,7 @@ summary>strong>a {
 
 .triple-column {
     display: -webkit-box;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem 6rem;
     width: min-content;
 } 
 
