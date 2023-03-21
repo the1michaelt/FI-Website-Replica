@@ -273,11 +273,12 @@ summary>strong>a {
     width: 18vw;
     height: 48vh;
     position: relative;
+    padding: 1rem 1rem 1rem 6rem;
 }
 
 .triple-column {
     display: -webkit-box;
-    padding: 1rem 1rem 1rem 6rem;
+    padding: 1rem;
     width: min-content;
 } 
 
@@ -339,8 +340,8 @@ summary>strong>a {
     height: 40%;
     position: relative;
     padding: 1rem;
-    top: -33rem;
-    right: -40rem;
+    top: -31rem;
+    right: -36rem;
     }
 
 .stack-top {
